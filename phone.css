@@ -1,0 +1,53 @@
+
+.header{
+    flex-direction: column;
+}
+
+
+
+
+
+
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+
+
+
+.navbar li a{
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    margin:4px 4px;
+    
+    padding: 1px 1px;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 71%;
+    width: 82%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2{
+    font-size: 0.9rem;
+}
+
+.container form{
+    width:70%;
+}
+.form input{
+    width:100%;
+    font-size: 20px;
+}
+
+.container button{
+    width:100%;
+}
